@@ -16,3 +16,6 @@ This is the code repository for an upcoming paper by Max Langenkamp and Daniel Y
 `pip3 install -r requirements.txt`
 
 3. If you want to run the scraping file from scratch, you should rename or delete `scraped_contributor_information_for_repos.csv` otherwise no scraping will happen.
+
+
+Cautionary note: Github rate limits prevent you from scraping all the repos in our list at once. You can either wait an hour to continue again or else use a VPN once you detect blocking.
